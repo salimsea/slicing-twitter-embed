@@ -5,6 +5,7 @@ const source_Sans_Pro = Source_Sans_Pro({
   subsets: ["latin"],
   weight: ["200", "300", "400", "600", "700", "900"],
   variable: "--font-Source_Sans_Pro",
+  fallback: ["system-ui", "arial"],
 });
 
 export default function App({ Component, pageProps }) {
